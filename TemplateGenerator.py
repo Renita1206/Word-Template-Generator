@@ -27,3 +27,6 @@ if(add_ss=='1'):
         #print(pathOfFolder+'\\'+i)
         doc.add_picture(pathOfFolder+'\\'+i, width=Inches(7), height=Inches(3.5))
 doc.save(full_path)
+
+print("Assignment has been added to folder")
+input()
